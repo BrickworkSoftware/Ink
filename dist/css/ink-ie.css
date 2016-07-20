@@ -70,13 +70,13 @@
  *                 outside a @media query let's you use the grid in IE8.
  *  
  */
-.ink-grid {
+.bw-api-ink-grid {
   width: auto;
   max-width: 1440px;
   margin: 0 auto;
 }
 
-.ink-grid {
+.bw-api-ink-grid {
   padding: 0 1.75em;
 }
 
@@ -351,7 +351,7 @@
   margin-bottom: 0;
 }
 
-.ink-table td[class*=large-], .ink-table th[class*=large-], .ink-table tr[class*=large-], .ink-table thead[class*=large-], .ink-table tbody[class*=large-], .ink-table tfoot[class*=large-] {
+.bw-api-ink-table td[class*=large-], .bw-api-ink-table th[class*=large-], .bw-api-ink-table tr[class*=large-], .bw-api-ink-table thead[class*=large-], .bw-api-ink-table tbody[class*=large-], .bw-api-ink-table tfoot[class*=large-] {
   float: none;
 }
 
@@ -966,15 +966,15 @@ Inlined to avoid the additional HTTP request: h5bp.com/r
     page-break-after: avoid;
   }
 
-  .ink-navigation {
+  .bw-api-ink-navigation {
     display: none;
   }
 
-  .ink-table {
+  .bw-api-ink-table {
     border-collapse: collapse;
   }
 
-  .ink-label {
+  .bw-api-ink-label {
     border: 1px solid #000;
   }
 }
