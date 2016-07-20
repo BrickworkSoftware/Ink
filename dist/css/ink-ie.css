@@ -70,13 +70,13 @@
  *                 outside a @media query let's you use the grid in IE8.
  *  
  */
-.ink-grid {
+.brickwork-ink-grid {
   width: auto;
   max-width: 1440px;
   margin: 0 auto;
 }
 
-.ink-grid {
+.brickwork-ink-grid {
   padding: 0 1.75em;
 }
 
@@ -351,7 +351,7 @@
   margin-bottom: 0;
 }
 
-.ink-table td[class*=large-], .ink-table th[class*=large-], .ink-table tr[class*=large-], .ink-table thead[class*=large-], .ink-table tbody[class*=large-], .ink-table tfoot[class*=large-] {
+.brickwork-ink-table td[class*=large-], .brickwork-ink-table th[class*=large-], .brickwork-ink-table tr[class*=large-], .brickwork-ink-table thead[class*=large-], .brickwork-ink-table tbody[class*=large-], .brickwork-ink-table tfoot[class*=large-] {
   float: none;
 }
 
@@ -359,10 +359,9 @@
 .large-push-top {
   position: relative;
   top: 0%;
-  -webkit-transform: translateY(0%);
   -moz-transform: translateY(0%);
   -ms-transform: translateY(0%);
-  -o-transform: translateY(0%);
+  -webkit-transform: translateY(0%);
   transform: translateY(0%);
 }
 
@@ -370,10 +369,9 @@
 .large-push-bottom {
   position: relative;
   top: 100%;
-  -webkit-transform: translateY(-100%);
   -moz-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
-  -o-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
 }
 
@@ -381,10 +379,9 @@
 .large-push-middle {
   position: relative;
   top: 50%;
-  -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -999,15 +996,15 @@ Inlined to avoid the additional HTTP request: h5bp.com/r
     page-break-after: avoid;
   }
 
-  .ink-navigation {
+  .brickwork-ink-navigation {
     display: none;
   }
 
-  .ink-table {
+  .brickwork-ink-table {
     border-collapse: collapse;
   }
 
-  .ink-label {
+  .brickwork-ink-label {
     border: 1px solid #000;
   }
 }
